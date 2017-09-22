@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prolegomena [Geneva 1580 Transcription]</title>
+        <author ref="#LambertusDaneau">Lambertus Daneau</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prolegomena [Geneva 1580 Transcription]</title>
+          <date when="2017-09-14">September 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="Geneva1580">Geneva 1580</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-14" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="ld-proleg">
+        <head>Prolegomena [Geneva 1580 Transcription]</head>
+        <div>
+          <head>Caput 1</head>
+          <head type="question-title">De prima Scholasticae Theologiae origine</head>
+          <p>
+            <pb ed="#G" n="1p"/>
+            <lb ed="#G"/>Ita fere usus, communisque ratio lo<lb ed="#G"/>quendi 
+            iam obtinuit, ut qui inter Pon<lb ed="#G"/>tifices 
+            homines se in religione profi<lb ed="#G"/>tentur 
+            aliorum doctores, citra con<lb ed="#G"/>vitium, 
+            aut contumeliam ullam vulgo Doctores 
+            <lb ed="#G"/>Schoastici vocentur.
+          </p>
+          <p>
+            Quam appellationem nec ipsi dedignantur, 
+            nec habere ipsam per se ullam probri signifi<lb ed="#G"/>cationem 
+            omnes facile concedunt. Huius au<lb ed="#G"/>tem 
+            vocis minime est obscura derivatio. Nam 
+            <lb ed="#G"/><foreign></foreign> deduci <foreign></foreign> vel tenuissime Grae<lb ed="#G"/>ce 
+            scientibus notum est satis <quote>Schola autem dictae 
+              <lb ed="#G"/>sunt (inquit Festus) non ab otio, ac vacatione animi: 
+            sed quod caeteris rebus omissis, liberalibus studiis 
+            <lb ed="#G"/>homines</quote> in locis, velut Academia Platonis, 
+            Stoa Zenonis, Peripato Aristotelis, vel alio 
+            <lb ed="#G"/>quovis loco strenue vacarent. Ac primis quidem 
+            <lb ed="#G"/>Ecclesiae temporibus, quum recte et ex praece<lb ed="#G"/>ptis, 
+            et exemplis Apostolorum gubernaretur, 
+            <lb ed="#G"/>verbum Dei et privatim et publice, quemad<pb ed="#G" n="2p"/>modum 
+            apparet ex <ref>Actis 20. vers. 20.</ref> doceba<lb ed="#G"/>tur 
+            a veris Pastoribus, ac doctoribus: a deo ut 
+            <lb ed="#G"/>non modo ispsi Ecclesiae caetus, sed singulorum 
+            <lb ed="#G"/>quoque fidelium domus scholae quodammo<lb ed="#G"/>do 
+            pietatis, et Christianae doctrinae dici pos<lb ed="#G"/>sent: 
+            et fideles ipsis promiscue et <foreign></foreign>, vel 
+            <lb ed="#G"/>Christiani vocabantur. Etsi vero Doctores 
+            <lb ed="#G"/>a Pastoribus distinguit Paulus in epistola ad E<lb ed="#G"/>phesios, 
+            quum functiones Ecclesiasticas perpe<lb ed="#G"/>tuas, 
+            et ordinarias recenset: non raro tamen e<lb ed="#G"/>venit, 
+            ut unus et idem propter egregias animi<lb ed="#G"/>dotes, 
+            Pastoris et Doctoris munere in Ecclesia 
+            <lb ed="#G"/>fungeretur. Cuius rei fidem faciunt tum <foreign><lb ed="#G"/></foreign>, 
+            tum alia quoque scripta edita, ex quibus 
+            <lb ed="#G"/>eosdem utrumque illud eximie praestitisse con<lb ed="#G"/>stat. 
+            Verum decrescentibus primis illis Dei in 
+            <lb ed="#G"/>Ecclesiam donis: vel Episcopis ipsis, ac Pasto<lb ed="#G"/>ribus 
+            alibi iam occupatis, nimirum, ut homi<lb ed="#G"/>num 
+            mores corrigerent, aut etiam ut opes Ec<lb ed="#G"/>clesiae 
+            (cui praeerant) iam lautas illas quidem 
+            <lb ed="#G"/>tuerentur et augerent, coeperunt quotidiano il<lb ed="#G"/>li 
+            a docendi munere, non gravatim abstinere. 
+            <lb ed="#G"/>Satis enim ad tuendam dignitatem officium se 
+            <lb ed="#G"/>suum facere existimarunt, si vel aliis illum la<lb ed="#G"/>borem 
+            demandassent, velt Presbyteris, Dia<lb ed="#G"/>conis, 
+            et aliis Ecclesiae suae, quos vocabant, Cle<lb ed="#G"/>ricis 
+            vel ipsis nonnunquam in solenniori popu<lb ed="#G"/>li 
+            <lb ed="#G"/>caetu conciones habuissent. Ex quo factum 
+            <lb ed="#G"/>est, ut ab Episcoporum, tanquam eminentiore 
+            <lb ed="#G"/>dignitate, docendi onus separari coeperit, et a<lb ed="#G"/>liis 
+            <lb ed="#G"/>delegari. Paulatim vero Episcopis pascen<lb ed="#G"/>di 
+            gregis sui curam omnem etiam deponenti<lb ed="#G"/>bus, 
+            doctrina Christiana non tantum tanquam 
+            <lb ed="#G"/>lucerna sub modio absconsa fuit, <ref>Matth. 5, vers. 
+            <lb ed="#G"/>15</ref> sed (quod omninon necesse erat evenire) inua<pb ed="#G" n="3p"/><lb ed="#G"/>lescentibus 
+            erroribus pene omnis etiam inter 
+            <lb ed="#G"/>Christianos ipsos extingui coepit. In tanta igi<lb ed="#G"/>tur 
+            Pastorum vaecordia exorti sunt quidam, 
+            <lb ed="#G"/>ut verbis Platonis utar, homunciones, quid cum 
+            <lb ed="#G"/>hanc sedem vacuam conspicerent, praeclaris ta<lb ed="#G"/>men 
+            nominibus et stemmatis speciosam, instar 
+            <lb ed="#G"/>eorum qui es carceribus ad templa confugiunt, 
+            <lb ed="#G"/>ultro ex infimis sedibus in illam invaserunt. Ii 
+            <lb ed="#G"/>autem fuerunt praesertim Monachi, qui negle<lb ed="#G"/>ctum 
+            docendi munus in se suscipere non recu<lb ed="#G"/>sarent. 
+            Hi vero quoniam iam doctrina Chri<lb ed="#G"/>stiana, 
+            velut incultus iam pridem ager infinitis 
+            <lb ed="#G"/>erroribus, velut sentibus, obsita, et pene obru<lb ed="#G"/>ta 
+            erat, receptas in Ecclesia opiniones, tamquam 
+            <lb ed="#G"/>solae verae fidei dogmata docere, defendere at<lb ed="#G"/>que 
+            etiam propogare, habebant satis: adeo ut re<lb ed="#G"/>liquum 
+            caelestis Evangelii doctrinae, quae ma<lb ed="#G"/>gna 
+            ex parte sepulta iam erat, non tanquam lan<lb ed="#G"/>guentem 
+            lucernam effugarent: sed suis potius 
+            <lb ed="#G"/>disputationibus et <foreign></foreign> suffocarent. Er<lb ed="#G"/>go 
+            Scholastici dicti sunt, quod eam doctrinam 
+            <lb ed="#G"/>tenerent, quae in Scholis publicis tradebatur 
+            <lb ed="#G"/>publice, ut illi quidam privatim illi doctrinae re<lb ed="#G"/>pugarent. 
+            Sed cum difficiles intricatae infini<lb ed="#G"/>taeque 
+            de iis rebus quaestiones tunc quoque ori<lb ed="#G"/>rentur, 
+            coeperunt in suis illis cholis concerta<lb ed="#G"/>tiones 
+            inter se de sua doctrina laboriosissimas 
+            <lb ed="#G"/>instituere, ac exercere. Unde et scholae Theolo<lb ed="#G"/>gicae, 
+            et Scholasticorum Theologorum <!-- italic for some reason --> nomen cele<lb ed="#G"/>bre 
+            factum est: atque haec secta originem pri<lb ed="#G"/>mum 
+            habuit. Scholasticos ergo sese peculiari ap<lb ed="#G"/>pellatione 
+            nominarunt, et quod quae in Scholis, 
+            <lb ed="#G"/>uti dixi publicis, quasi ab omnibus probatum tra<lb ed="#G"/>derent, 
+            et quod difficile in suis illis dis<lb ed="#G"/>putandi 
+            rationem retinerent: adeo ut aliam 
+            <pb ed="#G" n="4p"/>
+            <lb ed="#G"/>apud populum docendi rationem sequerentur. 
+            <lb ed="#G"/>Nam et distinctiones, et locutiones suas, et 
+            <lb ed="#G"/>quaestiones in scholis retinent, quae sunt reliquis 
+            <lb ed="#G"/>omnibus Christianis ignotae, et ad <foreign></foreign>, ac 
+            <lb ed="#G"/><foreign></foreign> potius disputandi usum, quam ad ul<lb ed="#G"/>lam 
+            conscientiarum aedificationem constitutae.
+            <lb ed="#G"/>Itaque quod ea doctrina ad populum minime 
+            <lb ed="#G"/>pertineret, etiam Scholasticam appelarunt. Ac 
+            <lb ed="#G"/>vere quidem de ea dici potest, quod scribit <name>Iu<lb ed="#G"/>lius 
+            Pollux</name>, <foreign>
+              <lb ed="#G"/></foreign>, hoc scholasticum dicendi genus est asp<lb ed="#G"/>rum, 
+            et fastidium affert: quanquam ipsi tamen 
+            <lb ed="#G"/>magnam ex ea voluptatem utilitatemque sen<lb ed="#G"/>tiunt. 
+            Ut quod de Scholastica vita Chrysippus 
+            <lb ed="#G"/>iampridem scripserat, isti reipsa verum esse pro<lb ed="#G"/>bent,
+            <quote>Nempe Scholasticam vitam nihil a volupta<lb ed="#G"/>ria 
+            differre</quote>. Ne igitur de istorum Scholasticorum 
+            <lb ed="#G"/>genere quis dici putet, vel quod de Serapione 
+            <lb ed="#G"/>scribit <name ref="#Jerome">Hieronymus</name> eum propter elegantiam inge<lb ed="#G"/>nii 
+            Scholasticum fuisse nominatum: vel quod 
+            <lb ed="#G"/>de Isaeo Rhetore scribit in epistolis Plinius Iu<lb ed="#G"/>nior 
+            <lb ed="#G"/>lib 2 cap 3 <quote>Scholasticus tantum est (ait) quo 
+            <lb ed="#G"/>genere hominum nihil aut simplicius, aut syncerius, 
+            <lb ed="#G"/>aut melius.</quote> Imo vero quod ait idem de causa<lb ed="#G"/>rum 
+            patronis suae aetatis, hoc ad istos schola<lb ed="#G"/>sticos 
+            pertinere potius existimemus. <quote>Isti in <unclear>ri<lb ed="#G"/>xatioibus</unclear>,
+            assiduisque inter se litibus, ac contentio<lb ed="#G"/>nibus 
+            sic feruntur, ut multum malitiae et insuidiae in<lb ed="#G"/>de 
+            contrahant, atque etiam addiscant</quote>. Sed quoniam 
+            <lb ed="#G"/>(ut ait Tullius) iniqua est in omni re accusanda, 
+            <lb ed="#G"/>praetermissis bonis, malorum enumeratio, vitiorumque 
+            <lb ed="#G"/>selectio, (quando ne bonis quidem adversariorum de<lb ed="#G"/>trahendum 
+            est, (ut recte monet <name>Hieronymus</name>) ista 
+            <lb ed="#G"/>duo ex horum Scholasticorum scriptis com<lb ed="#G"/>moda 
+            certe quidem percipimus, Unum, quod 
+            <pb ed="#G" n="5p"/>
+            <lb ed="#G"/>summa, et accurata methodo in iis, quae ipsi 
+            <lb ed="#G"/>tractant, utuntur, quae via nobis ad vera Theo<lb ed="#G"/>logiam 
+            explicandam facillimam sternit. Alte<lb ed="#G"/>rum, 
+            quod quaedam etiam vera in religione re<lb ed="#G"/>tinuerunt, 
+            neque prorsus Christianae fidei no<lb ed="#G"/>men 
+            obruere, velut Turci et Iudaei, voluerunt, 
+            <lb ed="#G"/>animoque distinarunt. Verum, ut quae genera<lb ed="#G"/>tim, 
+            ac fortasse obscurius diximus, iam ordine, 
+            <lb ed="#G"/>et facilius intelligantur, operae praetium mihi 
+            <lb ed="#G"/>facturus videor, si pauca quaedam de tto isto 
+            <lb ed="#G"/>hominum genere, et illius origine dixero expli<lb ed="#G"/>catius 
+            atque distinctius. Ipsis igitur Scholastici 
+            <lb ed="#G"/>se Theologos appellarunt, quod tenuissimas 
+            <lb ed="#G"/>verae lucis, ac Theologiae Christianae scintillas 
+            <lb ed="#G"/>adhuc conservarent. Noluit enim Dominus 
+            <lb ed="#G"/>(Iudaeis quidem Evangelium Christi prorsus 
+            <lb ed="#G"/>ab initio suffocantibus: Mahumetanis autem, et 
+            <lb ed="#G"/>Turcis magno conatu iam plantatum eradi<lb ed="#G"/>cantibus) 
+            illud omnino sepultum esse, et mane<lb ed="#G"/>re 
+            obrutam omnem suae veritatis lucem, et be<lb ed="#G"/>neficii 
+            in genus humanum sui per Christum me<lb ed="#G"/>moriam. 
+            Quamobrem isti Scholastici, homi<lb ed="#G"/>nes 
+            Theologi, se Prophetarum quos olim ha<lb ed="#G"/>buit 
+            Iudaeorum Ecclesia: et Doctorum quos 
+            <lb ed="#G"/>postea Christiana, successores esse putant. Sed 
+            <lb ed="#G"/>cum ii sint Prophetarum soli successores, <name>Hie<lb ed="#G"/>ronymo</name> 
+            teste, qui Prophetarum doctrinam re<lb ed="#G"/>tinent, 
+            isti procul dubio neque Dei Propheta<lb ed="#G"/>rum, 
+            neque verorum Ecclesiae doctorum filii, 
+            <lb ed="#G"/>successores, discipuli, aut aemuli sunt appellan<lb ed="#G"/>di. 
+            Quare praetermissa illa tam veteri origine 
+            <lb ed="#G"/>(quoniam suae sectae initia repetere ab illa Pro<lb ed="#G"/>phetarum 
+            aetate nequaquam possunt) fatemur 
+            <lb ed="#G"/>quidem circa annum Domini 150 Alexandriae 
+            <lb ed="#G"/>(quae est metropolis Aegypti) institutam fuisse 
+            <pb ed="#G" n="6p"/>
+            <lb ed="#G"/>Christianorum celebrem praeter caeteras Scho<lb ed="#G"/>lam, 
+            ubi de praeceptis verae, Christianaeque fidei 
+            <lb ed="#G"/>homines adhuc huius mysterii rudes institue<lb ed="#G"/>bantur. 
+            In hac Schola primus, ut ait <name>Eusebius</name> lib. 
+            <lb ed="#G"/><title>Histor. Ecclesiast</title> 5. cap. 9 Pantaenus docuit: cui 
+            <lb ed="#G"/>successit Clemens Presbyter Alexandrinus, is, 
+            <lb ed="#G"/>qui Paedagogi libros duos conscripsit: Clementi 
+            <lb ed="#G"/>Presbytero Origenes Adamantius, quemadmodum 
+            <lb ed="#G"/>ex eodem <name>Eusebio</name> libro 6 capitulo 2 et <name>Hie<lb ed="#G"/>ronymus</name> 
+            in Epistola de Erroribus Origenis, colli<lb ed="#G"/>gi 
+            facile potest: et Origeni Dionysius, ut do<lb ed="#G"/>cet 
+            <name>Hieronymus</name> idem in Catalog scriptor Ec<lb ed="#G"/>clesiast: 
+            et sic deinceps alii: sed quorum Scho<lb ed="#G"/>lastici 
+            isti neque doctrinam, neque docendi ra<lb ed="#G"/>tionem 
+            secuit sunt, ut eorum successores dici 
+            <lb ed="#G"/>minime propterea vel possint, vel debeant. 
+            <lb ed="#G"/>Quare longe recentior est totius huius homi<lb ed="#G"/>num 
+            sectae, id est, Theologiae Scholasticae or<lb ed="#G"/>tus.
+          </p>
+          <p>
+            Ergo circa annum temporis ultimi Mil<lb ed="#G"/>lesimum, 
+            vigesimum, (ut quam longissime retro 
+            <lb ed="#G"/>respiciamus) videntur prima istius Philosophiae 
+            <lb ed="#G"/>initia coepisse, nempe tempore <name>Lanfranci Pa<lb ed="#G"/>piensis</name>, 
+            qui Berengarii Antagonista fuit. Huius 
+            <lb ed="#G"/>autem <sic>tan</sic> novi eventus, et tam novae Philoso<lb ed="#G"/>phiae 
+            <lb ed="#G"/>causa (id quod necessarium puto explica<lb ed="#G"/>re) 
+            haec fuit. Certum est ante illud <name>Lanfranci</name> se<lb ed="#G"/>culum, 
+            unius fere <name>Augustini</name>, secundum verbum 
+            Dei scriptum, doctrinam inter Christianos 
+            <lb ed="#G"/>quosque doctissimos obtinuisse, atque diligen<lb ed="#G"/>tissime 
+            tanquam per manus traditam fuisse. 
+            <lb ed="#G"/>Nam primum ab Egyppio, qui Fulgentio fuit 
+            <lb ed="#G"/>aetate aequalis, postea etiam ab ipsomet Fulgen<lb ed="#G"/>tio, 
+            deinde a Primasio Afris Theologis: postea 
+            <lb ed="#G"/>autem Isidoro Hispalensi Episcopo: Maximo 
+            <lb ed="#G"/>Taurinensi. Prospero Gallo. conciliis etiam 
+            <pb ed="#G" n="7p"/>
+            <lb ed="#G"/>totis, velut Arausiaco, et Constantinopolitano 
+            <lb ed="#G"/>sexto approbata perpetua quadam temporis 
+            <lb ed="#G"/>successione semper fuit. Ad eo ut cum in Hi<lb ed="#G"/>spania 
+            deessent operum Augustini exemplaria cir<lb ed="#G"/>ca 
+            annum Domini 650. Taio episcopus Caesar 
+            <lb ed="#G"/>Augustanus, Romam missus sit qui ea, et Mo<lb ed="#G"/>ralia 
+            <lb ed="#G"/>Gregorii magni ex Bibliotheca Romana 
+            <lb ed="#G"/>peteret. Denique ante Carolum illum Magnum 
+            <lb ed="#G"/>Imperatorem a Beda Angelo Saxone defensa est, 
+            <lb ed="#G"/>atque etiam abs Bedae discipulis diutissime, ve<lb ed="#G"/>lut 
+            Alcuino, (quem alii Albinum vocant) Clau<lb ed="#G"/>dio, 
+            Rabano, Mauro, et aliis quam plurimis per 
+            <lb ed="#G"/>annos plusquam quingentos retenta est. Igitur 
+            <lb ed="#G"/>cum sola diu lecta esset, ac per locos etiam co<lb ed="#G"/>munes 
+            tradita, et collecta: coeptum est tamen 
+            <lb ed="#G"/>paulatim progressu temporis ab <name>Augustini</name> sen<lb ed="#G"/>tentia, 
+            cum aliis in rebus, tum vero praesertim 
+            <lb ed="#G"/>in articulo de Sacramento S. Domini Coenae 
+            <lb ed="#G"/>discedi, gliscentibus nimirum in Ecclesiam 
+            <lb ed="#G"/>Dei variis iam erroribus. Nam mysterium il<lb ed="#G"/>lud 
+            iniquitatis, et universalis Apostasiae Satan, 
+            <lb ed="#G"/>iam multum per Romanos Pontifices pro<lb ed="#G"/>movebat, 
+            et immanem illum Transsubstantia<lb ed="#G"/>tionis 
+            errorem, fontem aliorum infinitorum, 
+            <lb ed="#G"/>parturiebat. Huic labi, et sanae doctrinae cor<lb ed="#G"/>ruptelae 
+            tam pernitiosae, quae fieri coeperat, op<lb ed="#G"/>posuit 
+            <sic>sese</sic> constanter, pro sui in Dei veritate 
+            <lb ed="#G"/>tuenda zelo, <name>Berengarius</name>, ille <name>Andegavensis Ar<lb ed="#G"/>chidiaconus</name>, 
+            <name>Gallus</name>, vir habitus aetate sua eru<lb ed="#G"/>ditissimus, 
+            qui veterem Augustini sententiam 
+            <lb ed="#G"/>revocare, et (quanquam ipse durius nonnum<lb ed="#G"/>quam 
+            loquebatur de Sacramentis) retinere stu<lb ed="#G"/>duit. 
+            Sed <name>Berengario</name> id agenti sese opposuit 
+            <lb ed="#G"/>altera ex paret Italus quidam nomine <name>Lanfran<lb ed="#G"/>cus</name>, 
+            qui Papiae in Italia Theologia profitebatur 
+            <pb ed="#G" n="8p"/>
+            <lb ed="#G"/>Caeterum <name>Lanfranci</name> Itali, Pontificum Roma<lb ed="#G"/>norum 
+            errorem de Transsubstantiatione tuentis 
+            <lb ed="#G"/>disputationes contra <name>Berengarium</name> Gallum ex 
+            <lb ed="#G"/>Augustino sua defendentem sustentatae a Guit<lb ed="#G"/>mundo 
+            Archiepiscopo, et aliis Italicis homi<lb ed="#G"/>nibus 
+            pertinacissime confirmatae effecerunt, ut 
+            <lb ed="#G"/>primum praetermitteretur: post autem etiam 
+            <lb ed="#G"/>omnino negligeretur, quae tamdiu in Ecclesia 
+            <lb ed="#G"/>invaluerat, Augustini authoritas, doctrina, ac 
+            <lb ed="#G"/>sententia. Ex quo evenit, ut, qui se Theologos 
+            <lb ed="#G"/>profitebantur, deinceps suae doctrinae, et Theo<lb ed="#G"/>logiae 
+            fundamenta non eadem sumerent, quae 
+            <lb ed="#G"/>veteres: sed solum ea, quae iam receptis opinio<lb ed="#G"/>nibus, 
+            quamquam erroneis: partim etiam Philo<lb ed="#G"/>sophicis 
+            rationibus probatis: partim etiam ipsius 
+            <lb ed="#G"/>Pontificis Romani, velut irrefragabilibus, de<lb ed="#G"/>cretis 
+            constarent. Pro his tam anxie, quam pro 
+            <lb ed="#G"/>verissimis, ac sanctissiis Dei ipsius aris pugna<lb ed="#G"/>bant, 
+            accerrimeque dimicabant. Additum est 
+            quoque isti camino oleum. Nam Lanfranca<lb ed="#G"/>norum 
+            factio, et studium a Romanis Pontifi<lb ed="#G"/>cibus 
+            contra Berengarianos, quos vocabant, 
+            laudabatur: et doctrina <name>Lanfranci</name>, sententiaque 
+            <lb ed="#G"/>etiam Vercellensi concilio. (sunt autem Ver<lb ed="#G"/>celle 
+            oppidum Papiae patriae <sic>Laufranci</sic> vicinum) 
+            <lb ed="#G"/>suffragio Italorum hominum (qui illuc frequen<lb ed="#G"/>tes 
+            convenerant) et <name>Lanfranci</name> discipulorum a<lb ed="#G"/>perte 
+            melior iudicata fuit: adeo quae postea Be<lb ed="#G"/>rengarius 
+            ipse truculentissimis Nicolai Papae 
+            <lb ed="#G"/>minis ad Palinodiam coactus est. Quod ita ho<lb ed="#G"/>minum 
+            animos commovit, ut ex eo tempore 
+            <lb ed="#G"/>certatim omnes (verbo Dei spreto, et ortho<lb ed="#G"/>doxorum 
+            patrum scriptus neglectis, aut eate<lb ed="#G"/>nus 
+            probatis, quatenus opinionibus iam rece<lb ed="#G"/>ptis 
+            suffragabantur) in eam doctrinam incum<pb ed="#G" n="9p"/><lb ed="#G"/>berent, 
+            quae
+            
+            
+          </p>
+        </div>
+        
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus [Geneva 1580 Transcription]</title>
+        <author ref="#LambertusDaneau">Lambertus Daneau</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus [Geneva 1580 Transcription]</title>
+          <date when="2017-09-14">September 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="Geneva1580">Geneva 1580</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-14" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ld-l1prol">
+        <head>Liber 1, Prologus [Genevia 1580 Transcription]</head>
+        <p>
+          <lb ed="#G"/>1 <ref target="http://scta.info/resource/pll1prol-cadzdd">Cupientes</ref>. Excusatio autoris, qui tam ar<lb ed="#G"/>duum 
+          ac immensum opus scribere aggrediatur. 
+          <lb ed="#G"/>Sed se divini auxilii spe, et fratrum falgitatio<lb ed="#G"/>nibus, 
+          quibus ex charitate satisfacere debeat, 
+          impulsum id facere respondet
+        </p>
+        <p>
+          <pb ed="#P" n="4"/>
+          <lb ed="#G"/>2 <ref target="http://scta.info/resource/pll1prol-qifacc">Quo inardescentes</ref>. Utilitas et finis huius 
+          <lb ed="#G"/>operis triplex id est ut sit clypeus, quo adversus hae<lb ed="#G"/>reses 
+          studiosi muniantur. 2. Ut difficiles Theo<lb ed="#G"/>logiae 
+          quaestiones explicentur. 3. Ut Sacramen<lb ed="#G"/>torum 
+          natura enodetur.
+        </p>
+        <p>
+          <lb ed="#G"/>3 <ref target="http://scta.info/resource/pll1prol-qnavet">Quanvis</ref>. Occurrit improborum calum<lb ed="#G"/>niis, 
+          qui, quia suam sententiam, quam ipsam ve<lb ed="#G"/>ritatem 
+          sequi et tueri malunt, non sunt horum 
+          <lb ed="#G"/>librorum doctrinae subscripturi.
+        </p>
+        <p>
+          <lb ed="#G"/>4 <ref target="http://scta.info/resource/pll1prol-hidqld">Ex testimoniis</ref>. Doctrinam tum ex aeter<lb ed="#G"/>no 
+          Dei verbo, tum ex receptis iam et probatis 
+          <lb ed="#G"/>Patrum scriptis, collectam se traditurum polli<lb ed="#G"/>cetur: 
+          quod utinam praestitisset.
+        </p>
+        <p>
+          <lb ed="#G"/>5 <ref target="http://scta.info/resource/pll1prol-hidqld">Libris</ref>. Partitio totius operis in quatuor 
+          <lb ed="#G"/>libros.
+        </p>
+        <p>
+          <lb ed="#G"/>6 <ref target="http://scta.info/resource/pll1prol-iqmpdl">Sicubi vero</ref>. Se raro ex sua persona loqui 
+          <lb ed="#G"/>docet, quod a Patrum sententia nolit discedere.
+        </p>
+        <p>
+          <lb ed="#G"/>7 <ref target="http://scta.info/resource/pll1prol-nidqhc">In hoc autem</ref>. Se corrigi patienter feret 
+          <lb ed="#G"/><name ref="#Lombard">Lombardus</name>
+        </p>
+        
+
+      </div>
+    </body>
+  </text>
+</TEI>
