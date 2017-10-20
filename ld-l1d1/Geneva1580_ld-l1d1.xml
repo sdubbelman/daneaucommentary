@@ -50,14 +50,73 @@
         <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
       <div xml:id="starts-on">
-        <pb ed="#P" n="3"/>
+        <pb ed="#P" n="12"/>
       </div>
     </front>
     <body>
       <div xml:id="ld-l1d1">
         <head>Liber 1, Distinctio 1 [Genevia 1580 Transcription]</head>
-        <p>
-        </p>
+        <div>
+          <head>Cap. I</head>
+          <p>
+            <lb ed="#G"/>Totius Theologiae Christianae subiectum et 
+            <lb ed="#G"/>materia est duplex, nempe Res et Signa, quae 
+            <lb ed="#G"/>duo non essentiae sed relationis et significatio<lb ed="#G"/>nis 
+            modo inter se differunt.
+          </p>
+          <p>
+            <lb ed="#G"/>1. Sed rei. <name>Augustinus</name> habet, Sed res per si<lb ed="#G"/>gna 
+            discuntur. Hic, Sed res etiam per signa discun<lb ed="#G"/>tur. 
+            Ergo addidit, Etiam, quod est non modo 
+            <lb ed="#G"/>praeter, sed etiam contra <name>Augustini</name> mentem, qui 
+            <lb ed="#G"/>res ipsas per se, et extra significationem consi<lb ed="#G"/>derat: 
+            at iste cogitat res primum per se disci: 
+            <lb ed="#G"/>deinde per signa id est per verba. 
+          </p>
+          <p>
+            <lb ed="#G"/>2 Eorum autem. Augustinus habet, Sunt autem 
+            <lb ed="#G"/>alia signa, quorum omnes usus in significando est, sic<lb ed="#G"/>uti 
+            sunt verba. Hic addit, non in sustificando. Pri<lb ed="#G"/>mum 
+            praeter mentem <name>Augustini</name>, qui de verbis 
+            <lb ed="#G"/>tantum et vocabulis (quae signa duntaxat ese 
+            <lb ed="#G"/>possunt, nempe sensa mentis nostrae exprimen<lb ed="#G"/>tia) 
+            hoc genus signorum intelligit. Iste autem 
+            <lb ed="#G"/>de sacramentis Legalibus hoc genus signorum 
+            <lb ed="#G"/>sumit, quasi illa (quales erant boves, et oves vi<lb ed="#G"/>ctimae: 
+            aqua lustralis: et vacca ruffa, et lotiones, 
+            <lb ed="#G"/>et panes propositionis) duntaxat signa sint, non 
+            <lb ed="#G"/>etiam res quaedam, quod tamen ipsa eorum de<pb ed="#G" n="13"/><lb ed="#G"/>finitio 
+            ostendit. Quum enim essent Sacramen<lb ed="#G"/>ta, 
+            etsi Legalia, res erant primum et per se quidem 
+            <lb ed="#G"/>res quaedam: deinde ex Dei promissione, eaedem 
+            <lb ed="#G"/>res sunt effectae signa id est Sacramenta. Ergo hoc 
+            <lb ed="#G"/>signorum genus (nempe sacramenta Legalia) 
+            <lb ed="#G"/>ex sententia <name>Augustini</name>, ad idem genus signo<lb ed="#G"/>rum, 
+            ad quod vocabula referuntur, quae sunt 
+            <lb ed="#G"/>mere signa, pertinere non potest: sed ad illud 
+            <lb ed="#G"/>potius rerum genus, quae et res et signa sunt. 
+            <lb ed="#G"/><ref><name>Augustinus</name> lib 2. cap. 2 et 3 <title>de Doctrina Christiana</title></ref> Unde 
+            <lb ed="#G"/>falsum est quod hic ipse postea subiicit, nos non 
+            <lb ed="#G"/>uti istis rebus, quae sunt sacramenta Legalia, 
+            <lb ed="#G"/>nisi aliquid significandi gratia. Nam non bos et 
+            <lb ed="#G"/>ovis quaelibet, fuerunt Iudaeis signa Sacramen<lb ed="#G"/>talia, 
+            uti neque nobis quilibet panis in oculos 
+            <lb ed="#G"/>incurrens eset signum corporis Christi. Sed quod 
+            <lb ed="#G"/>de solis vocabulis et vocibus ex hominum in<lb ed="#G"/>stituto 
+            significantibus, recte dixit <name>Augustinus</name>, 
+            <lb ed="#G"/>addens, <quote>Nemo enim utitur verbis, nisi aliquid si<lb ed="#G"/>gnificandi 
+              gratia</quote> iste ad sacramenta Legalia per<lb ed="#G"/>peram 
+            refert: ut errorem errori cumulans di<lb ed="#G"/>scrimen 
+            constituat inter Evangelica et Legalia 
+            <lb ed="#G"/>sacramenta: quasi haec gratiam ex se non con<lb ed="#G"/>ferrent, 
+            ac proinde per se, ipsaque operatione 
+            <lb ed="#G"/>et communicatione non iustificarent: illa vero 
+            <lb ed="#G"/>Evangelica sacramenta utrunque per se faciant 
+            <lb ed="#G"/>et praestent: ideoque de Legalibus agens dixit 
+            <lb ed="#G"/>esse eorum usum, <quote>tantum in significando, et non in 
+              <lb ed="#G"/>iustificando</quote>
+          </p>
+        </div>
 
       </div>
     </body>
